@@ -11,7 +11,7 @@
    numbers, `epsilon` is also an important quantity.
 
    Write a program that adds the `epsilon` from
-   `numeric_limits<double>` to `1.0` and compares against 1.0 using
+   `std::numeric_limits<double>` to `1.0` and compares against 1.0 using
    `==`.  Store the result in a variable of type `bool` and print it
    out.
 
