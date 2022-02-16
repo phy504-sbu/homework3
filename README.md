@@ -11,9 +11,9 @@
    numbers, `epsilon` is also an important quantity.
 
    Write a program that adds the `epsilon` from
-   `std::numeric_limits<double>` to `1.0` and compares against 1.0 using
-   `==`.  Store the result in a variable of type `bool` and print it
-   out.
+   `std::numeric_limits<double>` to `1.0` and compares the result
+   against `1.0` using `==`.  Store the result in a variable of type
+   `bool` and print it out.
 
    What happens if you try adding twice `epsilon` or one-half of `epsilon`?
    Extend your program to consider those cases.
