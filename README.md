@@ -17,3 +17,16 @@
 
    What happens if you try adding twice `epsilon` or one-half of `epsilon`?
    Extend your program to consider those cases.
+
+2. Let's create a vector holding the first N terms of the Fibonacci
+   sequence (https://en.wikipedia.org/wiki/Fibonacci_number).
+
+   * Start by creating a C++ vector containing the numbers `0` and `1`.
+
+   * Ask the user how many values they want to be computed, and loop
+     using the `for (start; end; increment)` syntax we saw in class.
+     Be sure to account for the fact that you already have the first 2 elements (`0` and `1`).
+
+   * One the sequence is stored in the vector, use the range-based for
+     loop we saw in class to output the numbers to the screen, one per
+     line.
