@@ -24,8 +24,11 @@
    * Start by creating a C++ vector containing the numbers `0` and `1`.
 
    * Ask the user how many values they want to be computed, and loop
-     using the `for (start; end; increment)` syntax we saw in class.
-     Be sure to account for the fact that you already have the first 2 elements (`0` and `1`).
+     using the `for (start; end; increment)` syntax we saw in class
+     adding the next number in the sequence each iteration.
+
+     Be sure to account for the fact that you already have the first 2
+     elements (`0` and `1`).
 
    * One the sequence is stored in the vector, use the range-based for
      loop we saw in class to output the numbers to the screen, one per
